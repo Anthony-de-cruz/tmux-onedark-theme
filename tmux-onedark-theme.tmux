@@ -64,13 +64,13 @@ set "message-style" "fg=$onedark_black,bg=$onedark_yellow,bold"
 # set "window-style" "fg=$onedark_comment_grey"
 # set "window-active-style" "fg=$onedark_white"
 #
+
 # Pane borders
 set "pane-active-border-style" "fg=$onedark_white"
 set "pane-border-style" "fg=$onedark_visual_grey"
 
 set "display-panes-active-colour" "$onedark_yellow"
 set "display-panes-colour" "$onedark_blue"
-
 
 status_widgets=$(get "@onedark_widgets")
 time_format=$(get "@onedark_time_format" "%R")
